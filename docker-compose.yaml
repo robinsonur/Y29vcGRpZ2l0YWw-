@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  # Servicio para PHP-FPM
+  app:
+    image: php:8.1-fpm
+    container_name: php-fpm
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+    networks:
+      - app-network
+    environment:
+      - APP_ENV=local
+      - APP_DEBUG=true
+      - APP_KEY=base64:your-app-key-here
+      - DB_CONNECTION=mysql
+      - DB_HOST=db
+      - DB_PORT=3306
+      - DB_DATABASE=laravel
+      - DB_USERNAME=laravel
+      - DB_PASSWORD=secret
+
+  # Servicio para Nginx
+  webserver:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app
+    networks:
+      - app-network
+
+  # Servicio para MySQL
+  db:
+    image: mysql:8.0
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: laravel
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: secret
+    volumes:
+      - dbdata:/var/lib/mysql
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  dbdata:
