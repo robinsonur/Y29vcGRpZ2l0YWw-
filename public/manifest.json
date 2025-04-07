@@ -1,0 +1,43 @@
+{
+    "dir": "ltr",
+    "lang": "es",
+    "name": "Coop Virtual",
+    "scope": "/Coopdigital",
+    "display": "standalone",
+    "start_url": "/Coopdigital",
+    "short_name": "Coop Virtual",
+    "theme_color": "#2E9939",
+    "description": "Aplicación administrativa de reportes y procesos para el manejo de su cooperativa.",
+    "orientation": "portrait",
+    "background_color": "#FFFFFF",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "features": [
+        "Multiplataforma",
+        "Reportes de baja latencia",
+        "Diseño simple y moderno"
+    ],
+    "icons": [{
+            "src": "/public/imagenes/logo/icono.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/public/imagenes/logo/icono.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "shortcuts": [{
+        "name": "Inicio de Sesión",
+        "short_name": "Iniciar Sesión",
+        "description": "Formulario para Iniciar Sesión en Coop Virtual.",
+        "url": "/Coopdigital",
+        "icons": [{
+            "src": "/public/imagenes/logo/icono.png",
+            "sizes": "256x256"
+        }]
+    }]
+}

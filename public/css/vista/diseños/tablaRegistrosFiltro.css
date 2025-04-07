@@ -1,0 +1,838 @@
+/* {} Alineaciones */
+
+.alinearIzquierda {
+    text-align: left !important
+}
+
+.alinearCentro {
+    text-align: center !important
+}
+
+.alinearDerecha {
+    text-align: right !important
+}
+
+
+/* {} */
+
+.section>.card {
+    margin: 0
+}
+
+.contenedorAcordeon>.card {
+    margin-bottom: .5rem
+}
+
+.contenedorAcordeon>.card>.card-header {
+    padding: 0
+}
+
+.accordion-button.collapsed {
+    border-radius: 0.3rem;
+    background-color: var(--bs-primary) !important
+}
+
+.accordion-button.collapsed:hover,
+.accordion-button.collapsed:active {
+    background-color: var(--bs-primary-dark) !important
+}
+
+.accordion-button.collapsed:focus {
+    box-shadow: 0 0 0 0.25rem rgb(127 179 68 / 25%) !important;
+    background-color: var(--bs-primary-dark) !important
+}
+
+.accordion-button {
+    border-radius: 0.3rem 0.3rem 0 0;
+    background-color: var(--bs-primary-dark) !important;
+    color: #fff !important
+}
+
+.accordion-button:focus {
+    box-shadow: none !important
+}
+
+.accordion-button::after {
+    display: none
+}
+
+#collapseOne>.card-body {
+    margin: 4px;
+    border-radius: 0 0 0.3rem 0.3rem;
+    box-shadow: 0 0 0 0.25rem rgb(127 179 68 / 25%) !important
+}
+
+#collapseOne>.card-body>label:not([for]) {
+    margin: 0 0.5rem 0 0;
+}
+
+#filtroFechaDesde,
+#filtroFechaHasta {
+    border-radius: 0.3rem;
+    padding: 0;
+    text-align: center
+}
+
+input[type="text"].form-control.form-control-sm {
+    border-radius: 0.3rem;
+    padding: 0;
+    text-align: center
+}
+
+.daterangepicker {
+    box-shadow: 0 0 0 0.25rem rgb(127 179 68 / 25%);
+    border: none;
+    font-family: 'Nunito' !important
+}
+
+.daterangepicker.single .drp-calendar.left,
+.daterangepicker .calendar-table {
+    border-radius: 0.3rem 0.3rem 0 0;
+    background-color: var(--bs-primary)
+}
+
+.daterangepicker .calendar-table .next span,
+.daterangepicker .calendar-table .prev span {
+    border: solid #fff;
+    border-width: 0 1px 1px 0
+}
+
+.daterangepicker select.monthselect,
+.daterangepicker select.yearselect {
+    border-radius: 0.3rem;
+    border: none;
+    width: auto;
+    color: #6c757d
+}
+
+.daterangepicker select.monthselect:focus,
+.daterangepicker select.yearselect:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%) !important;
+    outline: 0
+}
+
+
+/* .daterangepicker select.monthselect>option,
+.daterangepicker select.yearselect>option {
+    background-color: var(--bs-primary);
+    color: #fff
+}
+
+
+.daterangepicker select.monthselect>option:focus,
+.daterangepicker select.yearselect>option:focus,
+.daterangepicker select.monthselect>option:checked,
+.daterangepicker select.yearselect>option:checked {
+    background-color: var(--bs-primary-dark) !important;
+    color: #fff
+} */
+
+.daterangepicker .drp-calendar.left .calendar-table {
+    padding: 0
+}
+
+.daterangepicker .calendar-table table {
+    width: 200px !important;
+    min-width: 0
+}
+
+.daterangepicker .calendar-table th,
+.daterangepicker .calendar-table td {
+    border-radius: 0.3rem;
+    border: 0;
+    min-height: 0;
+    background-color: var(--bs-primary);
+    color: #fff;
+    line-height: 0
+}
+
+.daterangepicker td.start-date.end-date {
+    border-radius: 0.3rem;
+}
+
+.daterangepicker td.available:hover,
+.daterangepicker th.available:hover {
+    background-color: var(--bs-primary-dark);
+    color: #fff
+}
+
+.daterangepicker td.start-date.end-date {
+    background-color: var(--bs-primary-dark)
+}
+
+.daterangepicker td.disabled,
+.daterangepicker option.disabled {
+    background-color: var(--bs-primary-dark) !important
+}
+
+.daterangepicker .drp-buttons {
+    border-radius: 0 0 0.3rem 0.3rem;
+    border-top: 1px solid #fff;
+    background-color: var(--bs-primary)
+}
+
+.daterangepicker .drp-buttons .btn {
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #fff;
+    padding: 0;
+    color: #6c757d
+}
+
+.daterangepicker .drp-buttons .btn:hover {
+    background-color: var(--bs-primary-dark);
+    color: #fff
+}
+
+#filtroCuenta,
+#filtroNumeroCuenta {
+    border-radius: 0.3rem;
+    background-image: none;
+    appearance: auto
+}
+
+#filtroTipoCuenta {
+    border-radius: 0.3rem;
+    background-image: none;
+    appearance: auto
+}
+
+#filtroDebitoCredito {
+    border-radius: 0.3rem;
+    background-image: none;
+    appearance: auto
+}
+
+select.form-select.form-select-sm {
+    border-radius: 0.3rem;
+    background-image: none;
+    appearance: auto
+}
+
+#botonBuscar,
+#botonCalcular {
+    border-radius: 0.3rem;
+    border: none;
+    background-color: var(--bs-primary);
+    padding: 0;
+}
+
+#botonBuscar:hover,
+#botonBuscar:active,
+#botonBuscar:focus,
+#botonCalcular:hover,
+#botonCalcular:active,
+#botonCalcular:focus {
+    background-color: var(--bs-primary-dark)
+}
+
+#tablaRegistros_wrapper>div:last-child {
+    margin-bottom: 0 !important
+}
+
+[name="tablaRegistros_length"] {
+    border-radius: 0.3rem;
+    text-align: center;
+    padding: 0;
+    background-image: none
+}
+
+
+/* [name="tablaRegistros_length"]>option {
+    background-color: var(--bs-primary);
+    color: #fff
+}
+
+[name="tablaRegistros_length"]>option:checked {
+    background-color: var(--bs-primary-dark);
+} */
+
+#tablaRegistros_filter>label>input {
+    border-radius: 0.3rem;
+}
+
+.col-md-4 {
+    padding-right: 0;
+    width: 38%
+}
+
+.col-md-2 {
+    padding-left: 0;
+    width: 12%
+}
+
+.col-sm-12.col-md-2>.flexcontent {
+    text-align: right
+}
+
+.buttons-collection,
+.buttons-print {
+    border-radius: 0.3rem !important;
+    border: none;
+    padding: 0;
+}
+
+.buttons-collection>span>i,
+.buttons-print>span>i {
+    width: auto;
+    height: auto
+}
+
+.buttons-collection:after {
+    display: none
+}
+
+.buttons-collection,
+.buttons-print {
+    background-color: var(--bs-primary)
+}
+
+.buttons-collection:hover,
+.buttons-print:hover,
+.buttons-collection:focus,
+.buttons-print:focus {
+    background-color: var(--bs-primary-dark)
+}
+
+.dt-button-collection {
+    box-shadow: 0 0 0 0.25rem rgb(127 179 68 / 25%) !important;
+    border: none;
+    width: auto !important;
+    min-width: 0;
+    padding: 0 !important;
+    background-color: transparent !important
+}
+
+.buttons-columnVisibility,
+.buttons-html5 {
+    width: auto !important;
+    min-width: 0 !important;
+    text-transform: capitalize
+}
+
+table.dataTable>tbody>tr.child span.dtr-title {
+    text-transform: capitalize
+}
+
+.buttons-columnVisibility:hover,
+.buttons-html5:hover {
+    background-color: var(--bs-primary-dark);
+    color: #fff !important;
+}
+
+.buttons-columnVisibility:not(.active) {
+    background-color: var(--bs-primary-dark);
+    color: #fff;
+}
+
+.buttons-columnVisibility:not(.active):hover {
+    color: #fff
+}
+
+.buttons-columnVisibility:first-child {
+    border-radius: 0.3rem 0.3rem 0 0 !important;
+}
+
+.buttons-columnVisibility:last-child {
+    border-radius: 0 0 0.3rem 0.3rem !important;
+}
+
+.buttons-html5 {
+    background-color: var(--bs-primary);
+    color: #fff
+}
+
+.buttons-html5:hover {
+    background-color: var(--bs-primary-dark);
+}
+
+.buttons-html5:first-child {
+    border-radius: 0.3rem 0.3rem 0 0 !important;
+}
+
+.buttons-html5:last-child {
+    border-radius: 0 0 0.3rem 0.3rem !important;
+}
+
+.dataTables_scrollHead {
+    border-radius: 0.3rem 0.3rem 0 0;
+    background-color: var(--bs-primary);
+    text-align: center
+}
+
+.dataTables_scrollHeadInner,
+.table.dataTable {
+    width: 100% !important;
+}
+
+.table.dataTable {
+    margin: 0 !important
+}
+
+
+/* #tablaRegistros>thead {
+    display: none
+} */
+
+.sorting,
+.sorting_desc,
+.sorting_asc,
+.sorting_disabled {
+    color: #fff;
+    text-transform: capitalize
+}
+
+.odd[role="row"]:hover,
+.even[role="row"]:hover,
+.odd.seleccionada[role="row"],
+.even.seleccionada[role="row"] {
+    background-color: var(--bs-primary-dark);
+    color: #fff
+}
+
+.dataTables_empty {
+    padding: 0 !important
+}
+
+.odd[role="row"]>td,
+.even[role="row"]>td {
+    text-align: center
+}
+
+.even[role="row"] {
+    background-color: #ddd
+}
+
+.dataTables_scrollFoot {
+    border-radius: 0 0 0.3rem 0.3rem;
+    background-color: var(--bs-primary);
+    text-align: center
+}
+
+.dataTables_scrollFootInner {
+    width: 100% !important
+}
+
+.dataTables_scrollFoot>.dataTables_scrollFootInner>.table.dataTable>tfoot>tr>th[rowspan="1"] {
+    color: #fff
+}
+
+.paginate_button {
+    margin: 0 !important
+}
+
+.paginate_button>.page-link {
+    border-color: #fff !important;
+    background-color: var(--bs-primary) !important;
+    color: #fff !important
+}
+
+.paginate_button>.page-link:hover {
+    background-color: var(--bs-primary-dark) !important;
+    color: #fff !important
+}
+
+.paginate_button.active>.page-link {
+    background-color: var(--bs-primary-dark) !important
+}
+
+@media (min-width: 1024px) {
+    .section>.card>.card-header {
+        padding: 0.48828125vw 0.48828125vw 0 0.48828125vw;
+        font-size: 1.109375vw
+    }
+    .section>.card>.card-body {
+        padding: 0.48828125vw
+    }
+    .accordion-button {
+        padding: 0.48828125vw;
+        font-size: 1.109375vw;
+    }
+    #collapseOne>.card-body {
+        padding: 0.48828125vw;
+        text-align: center;
+        font-size: 0.87890625vw;
+        letter-spacing: -0.029296875vw
+    }
+    #filtroFechaDesde,
+    #filtroFechaHasta {
+        width: 6.15234375vw;
+        min-height: 1.7759047619047619vw;
+        font-size: 0.87890625vw;
+        letter-spacing: -0.029296875vw;
+    }
+    input[type="text"].form-control.form-control-sm {
+        width: 6.15234375vw;
+        min-height: 1.7759047619047619vw;
+        font-size: 0.87890625vw;
+        letter-spacing: -0.029296875vw;
+    }
+    .daterangepicker .drp-calendar.left {
+        padding: 0.48828125vw
+    }
+    .daterangepicker select.monthselect,
+    .daterangepicker select.yearselect {
+        font-size: 0.87890625vw;
+        letter-spacing: -0.029296875vw;
+    }
+    .daterangepicker .calendar-table th,
+    .daterangepicker .calendar-table td {
+        width: 1.4880952380952381vw;
+        height: 1.4880952380952381vw;
+        font-size: 0.87890625vw;
+        letter-spacing: -0.029296875vw;
+    }
+    .daterangepicker .drp-buttons {
+        padding: 0.48828125vw
+    }
+    .daterangepicker .drp-buttons .btn {
+        margin-left: 0.29296875vw;
+        width: 3.90625vw;
+        height: 1.7759047619047619vw;
+        font-size: 0.87890625vw;
+        letter-spacing: -0.029296875vw;
+    }
+    #filtroCuenta,
+    #filtroNumeroCuenta {
+        padding: 0 0.5952380952380952vw;
+        width: 17.678571428571427vw;
+        min-height: 1.7759047619047619vw;
+        font-size: 0.87890625vw;
+        letter-spacing: -0.029296875vw;
+    }
+    #filtroTipoCuenta {
+        padding: 0 0.5952380952380952vw;
+        width: 13.630952380952381vw;
+        min-height: 1.7759047619047619vw;
+        font-size: 0.87890625vw;
+        letter-spacing: -0.029296875vw;
+    }
+    #filtroDebitoCredito {
+        padding: 0 0.5952380952380952vw;
+        min-height: 1.7759047619047619vw;
+        font-size: 0.87890625vw;
+        letter-spacing: -0.029296875vw;
+    }
+    select.form-select.form-select-sm {
+        padding: 0 0.5952380952380952vw;
+        min-height: 1.7759047619047619vw;
+        font-size: 0.87890625vw;
+        letter-spacing: -0.029296875vw;
+    }
+    #botonBuscar,
+    #botonCalcular {
+        width: 3.90625vw;
+        min-height: 1.7759047619047619vw;
+        font-size: 0.87890625vw;
+        letter-spacing: -0.029296875vw;
+    }
+    #tablaRegistros_wrapper {
+        font-size: 1.109375vw
+    }
+    [name="tablaRegistros_length"] {
+        width: 3.90625vw !important;
+        min-height: 2.2581845238095237vw;
+        font-size: 1.109375vw
+    }
+    #tablaRegistros_filter>label>input {
+        min-height: 1.7759047619047619vw;
+        padding: 0.23809523809523808vw 0.47619047619047616vw;
+        font-size: 1.109375vw
+    }
+    .buttons-collection,
+    .buttons-print {
+        width: 2.44140625vw;
+        height: 2.2581845238095237vw;
+        font-size: 1.109375vw;
+    }
+    .buttons-columnVisibility,
+    .buttons-html5 {
+        padding: 0.48828125vw;
+        font-size: 1.109375vw
+    }
+    .dataTables_scroll {
+        font-size: 0.87890625vw;
+        letter-spacing: -0.029296875vw
+    }
+    .table.dataTable>thead>tr> :first-child {
+        padding-left: 0.2976190476190476vw !important
+    }
+    .sorting,
+    .sorting_desc,
+    .sorting_asc,
+    .sorting_disabled {
+        padding: 0.2976190476190476vw 0.1488095238095238vw !important
+    }
+    .table.dataTable>thead>tr> :last-child {
+        padding-right: 0.2976190476190476vw !important
+    }
+    .dataTable-table>:not(:first-child),
+    .table>:not(:first-child) {
+        border-top: 0;
+    }
+    .dataTables_empty {
+        height: 14.782738095238095vw
+    }
+    .table.dataTable>tbody>tr> :first-child {
+        padding-left: 0.2976190476190476vw !important
+    }
+    .odd[role="row"]>td,
+    .even[role="row"]>td {
+        padding: 0 0.1488095238095238vw !important
+    }
+    .table.dataTable>tbody>tr> :last-child {
+        padding-right: 0.2976190476190476vw !important
+    }
+    .table.dataTable>tfoot>tr> :first-child {
+        padding-left: 0.2976190476190476vw !important
+    }
+    .table.dataTable>tfoot>tr>th {
+        padding: 0.2976190476190476vw 0.1488095238095238vw !important
+    }
+    .table.dataTable>tfoot>tr> :last-child {
+        padding-right: 0.2976190476190476vw !important
+    }
+    #tablaRegistros_info {
+        padding: 0.48828125vw
+    }
+    .paginate_button>.page-link {
+        padding: 0.35714285714285715vw 0.7142857142857143vw;
+        font-size: 1.109375vw
+    }
+}
+
+@media (max-width: 992px) {
+    .daterangepicker {
+        width: 39.0625vw !important;
+        margin-top: 13px !important;
+        border: 0 !important;
+        box-shadow: 0 0 0 0.8928571428571429vw rgb(127 179 68 / 25%) !important;
+        font-family: 'Nunito' !important
+    }
+    .daterangepicker:before {
+        top: -9.02px !important;
+        border-bottom-color: rgb(127 179 68 / 25%) !important;
+    }
+    .daterangepicker .ranges li {
+        display: flex !important;
+        height: 9.642857142857142vw !important;
+        padding: 0 1.7857142857142858vw !important;
+        align-items: center !important
+    }
+    .daterangepicker .ranges li.active {
+        background-color: var(--bs-primary) !important
+    }
+    .daterangepicker .ranges li:first-child {
+        border-radius: 0.8928571428571429vw 0.8928571428571429vw 0 0 !important;
+    }
+    .daterangepicker .ranges li:last-child {
+        border-radius: 0 0 0.8928571428571429vw 0.8928571428571429vw !important;
+    }
+    .daterangepicker.show-calendar .ranges {
+        margin-top: 0 !important
+    }
+    .daterangepicker:after {
+        border-bottom: 2.142857142857143vw solid transparent !important;
+    }
+    #filtroFechaDesde {
+        width: 39.0625vw
+    }
+    .swal2-container:has(#fechaDesde) {
+        padding: 5.357142857142857vw !important
+    }
+    .swal2-popup:has(#fechaDesde) {
+        border-radius: 0.8928571428571429vw !important;
+        font-size: 3.5714285714285716vw !important
+    }
+    .swal2-container:has(#fechaDesde) .swal2-title {
+        display: flex !important;
+        height: 11.428571428571429vw;
+        align-items: center;
+        border-radius: 0.8928571428571429vw 0.8928571428571429vw 0 0 !important;
+        margin: 0 !important;
+        margin-top: -11.607142857142858vw !important;
+        padding: 0 1.7857142857142858vw !important;
+        background-color: var(--bs-primary);
+        text-align: left !important;
+        font-size: 3.5714285714285716vw !important;
+        color: #fff !important
+    }
+    .swal2-container:has(#fechaDesde) .swal2-close {
+        width: 4.910714285714286vw !important;
+        height: 13.392857142857142vw !important;
+        margin: 0 1.7857142857142858vw !important;
+        margin-top: -1.7857142857142858vw !important;
+        justify-content: right !important;
+        align-items: center !important;
+        font-size: 8.928571428571429vw !important;
+        color: #fff !important
+    }
+    .swal2-container:has(#fechaDesde) .swal2-close:focus {
+        box-shadow: none !important
+    }
+    .swal2-html-container:has(.registrosDialogo)>.detallesDialogo {
+        background-color: var(--bs-primary);
+        color: #fff
+    }
+    .swal2-container:has(#fechaDesde) .swal2-actions {
+        margin: 0 !important;
+    }
+    .swal2-html-container #fechaDesde,
+    .swal2-html-container #fechaHasta {
+        width: 32.5vw;
+        height: 9.642857142857142vw;
+        margin: 1.7857142857142858vw;
+        padding: 1.7857142857142858vw !important;
+        appearance: auto;
+        text-align: center;
+        font-size: 3.5714285714285716vw;
+    }
+    .swal2-html-container #fechaDesde {
+        margin-left: 10.357142857142858vw;
+    }
+    .swal2-container:has(#fechaDesde) {
+        margin: 1.7857142857142858vw !important;
+        font-size: 3.5714285714285716vw !important
+    }
+    .swal2-container:has(#fechaDesde) .swal2-confirm {
+        border-radius: 0.8928571428571429vw !important;
+        width: 19.40357142857143vw;
+        height: 8.928571428571429vw;
+        margin: 1.7857142857142858vw !important;
+        padding: 0 !important;
+    }
+    .detallesDialogo {
+        border-radius: 0.8928571428571429vw 0.8928571428571429vw 0 0;
+        padding: 1.7857142857142858vw
+    }
+    .detallesDialogo>.row>.col-12 .row:has(.col-auto) {
+        justify-content: space-between;
+    }
+    .registrosDialogo {
+        /* height: 70vh; */
+        padding: 1.7857142857142858vw;
+        overflow: auto
+    }
+    .registrosDialogo>.col-12:nth-child(even) {
+        margin-bottom: 1.7857142857142858vw
+    }
+    .registrosDialogo>.col-12>.row>.col-6:nth-child(odd) {
+        padding-right: 1.7857142857142858vw
+    }
+    .registrosDialogo>.col-12>.row>.col-6:nth-child(even) {
+        padding-left: 1.7857142857142858vw
+    }
+    table.dataTable>thead>tr>td:not(.sorting_disabled2),
+    table.dataTable>thead>tr>th:not(.sorting_disabled2) {
+        padding-right: 1.5625vw
+    }
+}
+
+@media (max-width: 575.98px) {
+    .breadcrumb {
+        margin-bottom: 0 !important;
+        font-size: 3.75vw
+    }
+    .page-title>.row {
+        margin: 0.5rem 0 !important
+    }
+    .h3,
+    h3 {
+        margin: 0 !important;
+        font-size: 5vw
+    }
+    .order-first {
+        width: 50%;
+        order: 1 !important;
+    }
+    .breadcrumb-header {
+        float: right !important
+    }
+    .order-last {
+        width: 50%;
+        order: 0 !important
+    }
+    .order-last,
+    .order-first {
+        padding: 0 !important
+    }
+    .section>.card>.card-header {
+        padding: 0.3rem !important;
+        font-size: 4.0625vw
+    }
+    .card .card-body {
+        padding: 0.5rem 0.2rem
+    }
+    .accordion-button {
+        padding: 0.2rem;
+        font-size: 3.375vw
+    }
+    #collapseOne>.card-body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 2.75vw;
+        letter-spacing: -0.029296875vw
+    }
+    #filtroFechaDesde,
+    #filtroFechaHasta {
+        font-size: 2.5vw
+    }
+    #collapseOne>.card-body> :nth-of-type(4)~*:not(#botonBuscar, #botonCalcular, [for="metodoPago"]~*),
+    #tablaRegistros_wrapper> :nth-child(1) {
+        display: none !important
+    }
+    #botonBuscar {
+        padding: 0.1rem;
+        font-size: 3.75vw
+    }
+    #tablaRegistros_wrapper> :nth-child(1) {
+        margin: 0 0 0.5rem 0 !important
+    }
+    .col-sm-12.col-md-4 {
+        width: 100%
+    }
+    table.dataTable>thead>tr>td:not(.sorting_disabled2),
+    table.dataTable>thead>tr>th:not(.sorting_disabled2),
+    div.dataTables_scrollBody>table>tbody tr:first-child td,
+    div.dataTables_scrollBody>table>tbody tr:first-child th,
+    .odd[role="row"]>td,
+    .even[role="row"]>td,
+    .dataTables_scrollFoot>.dataTables_scrollFootInner>.table.dataTable>tfoot>tr>th[rowspan="1"] {
+        padding: 0.9375vw;
+    }
+    .dataTables_scroll,
+    .sorting,
+    .sorting_asc,
+    .sorting_desc,
+    .sorting_disabled,
+    .odd>td,
+    .even>td {
+        font-size: 2.5vw
+    }
+    .dataTables_scrollBody {
+        height: 60.9375vw !important
+    }
+    table.dataTable td {
+        padding: 0.1rem !important
+    }
+    .dtr-control {
+        font-size: 4.6875vw
+    }
+    .dtr-details {
+        width: 100% !important;
+        font-size: 3.4375vw !important
+    }
+    table.dataTable>tbody>tr.child ul.dtr-details>li {
+        padding: 0.1rem !important;
+        font-size: 2.75vw !important;
+    }
+    div.dataTables_wrapper div.dataTables_info {
+        font-size: 3.75vw
+    }
+    .paginate_button>.page-link {
+        padding: 1.25vw 3.125vw;
+        font-size: 3.75vw
+    }
+}

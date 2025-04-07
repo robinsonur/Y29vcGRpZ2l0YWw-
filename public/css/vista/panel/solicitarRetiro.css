@@ -1,0 +1,188 @@
+#formulario>.row {
+    align-items: center
+}
+
+.columnaTexto {
+    margin-top: 1rem;
+    padding: 0
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--bs-primary-dark)
+}
+
+.form-select {
+    background-image: none;
+    appearance: auto
+}
+
+.form-select,
+.form-control,
+.btn {
+    width: auto;
+    margin-top: 1rem;
+    padding: 0
+}
+
+div.alert.alert-danger {
+    display: none;
+    width: 94%;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.campoIncompleto {
+    border-color: #f3616d;
+    color: #f3616d;
+}
+
+.campoIncompleto::placeholder,
+.campoIncompleto::placeholder {
+    color: #f3616d
+}
+
+.campoIncompleto:focus,
+.campoIncompleto:focus {
+    box-shadow: 0 0 0 0.2vw rgb(243 97 109 / 25%) !important
+}
+
+#concepto {
+    text-transform: uppercase
+}
+
+.swal2-container.swal2-center.swal2-backdrop-show {
+    padding: 0
+}
+
+.swal2-popup.swal2-modal.swal2-icon-warning.swal2-show {
+    border-radius: 0.3rem;
+    background-color: var(--bs-primary)
+}
+
+.swal2-popup.swal2-modal.swal2-icon-warning.swal2-show>.swal2-icon.swal2-warning.swal2-icon-show {
+    border-color: #fff;
+    color: #fff
+}
+
+.swal2-popup.swal2-modal.swal2-icon-warning.swal2-show>.swal2-title,
+.swal2-popup.swal2-modal.swal2-icon-warning.swal2-show>.swal2-html-container {
+    color: #fff !important
+}
+
+.swal2-popup.swal2-modal.swal2-icon-warning.swal2-show>.swal2-actions>.swal2-cancel.btn.btn-danger.swal2-styled,
+.swal2-popup.swal2-modal.swal2-icon-warning.swal2-show>.swal2-actions>.swal2-confirm.btn.btn-success.swal2-styled {
+    border-radius: 0.3rem;
+    border: none;
+    background-color: #fff;
+    padding: 0;
+    color: #6c757d
+}
+
+.swal2-popup.swal2-modal.swal2-icon-warning.swal2-show>.swal2-actions>.swal2-cancel.btn.btn-danger.swal2-styled:hover {
+    background-color: #f3616d;
+    color: #fff
+}
+
+.swal2-cancel.btn.btn-danger,
+.swal2-confirm.btn.btn-success {
+    margin: 0;
+    border-radius: 0.3rem;
+    border: none;
+    width: auto;
+    height: auto
+}
+
+.swal2-cancel.btn.btn-danger:focus,
+.swal2-confirm.btn.btn-success:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%) !important;
+    outline: 0
+}
+
+@media (min-width: 1200px) {
+    .swal2-icon.swal2-warning.swal2-icon-show {
+        width: 3em !important;
+        height: 3em !important;
+        border: 0.15em solid #fff !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .columnaTexto {
+        width: 8.204648437500001vw
+    }
+    label,
+    #botonEnviar {
+        font-size: 1.109375vw !important
+    }
+    .form-select,
+    .form-control,
+    .btn {
+        height: 2.835078125vw !important;
+        padding: 0 0.48828125vw;
+    }
+    .swal2-icon.swal2-warning.swal2-icon-show {
+        width: 3em;
+        height: 3em;
+        border: 0.15em solid transparent;
+    }
+    .swal2-icon-content {
+        font-size: 1.75em !important;
+    }
+    .swal2-cancel.btn.btn-danger,
+    .swal2-confirm.btn.btn-success {
+        margin: 0 15px;
+        font-size: 1.109375vw
+    }
+}
+
+@media (max-width: 991px) {
+    .swal2-icon.swal2-warning.swal2-icon-show {
+        width: 3em;
+        height: 3em;
+        border: 0.15em solid transparent;
+    }
+    .swal2-icon-content {
+        font-size: 1.75em !important;
+    }
+    #swal2-title {
+        font-size: 24px !important
+    }
+    .swal2-cancel.btn.btn-danger,
+    .swal2-confirm.btn.btn-success {
+        margin: 0 15px;
+        padding: 7.5px
+    }
+}
+
+@media (max-width: 575.98px) {
+    .columnaCampo,
+    .columnaCampo>.form-select,
+    .columnaCampo>.form-control {
+        width: 100% !important
+    }
+    .swal2-icon.swal2-warning.swal2-icon-show {
+        width: 3em;
+        height: 3em;
+        border: 0.15em solid transparent;
+    }
+    .swal2-icon-content {
+        font-size: 1.75em !important;
+    }
+    #swal2-title {
+        font-size: 24px !important
+    }
+    .swal2-cancel.btn.btn-danger,
+    .swal2-confirm.btn.btn-success {
+        margin: 0 15px;
+        padding: 7.5px
+    }
+}

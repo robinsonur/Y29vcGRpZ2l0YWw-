@@ -1,0 +1,79 @@
+:root {
+  /* ! Color primario */
+  --colorPrimario: var(--bs-primary);
+  --colorPrimario-rgb: 117 186 27;
+  /* ! Color secundario */
+  --colorSecundario: var(--bs-primary-dark);
+  --colorSecundario-rgb: 46 153 57;
+  /* ! Color terciario */
+  --colorTerciario: #fff402;
+  --colorTerciario-rgb: 255 244 2
+}
+
+body {
+  font-size: 11px;
+}
+
+/* {} Tabla */
+.dataTable-table, .table {
+  margin: 0;
+  --bs-table-active-color: #fff;
+  --bs-table-active-bg: var(--colorSecundario);
+  --bs-table-hover-color: #fff;
+  --bs-table-hover-bg: var(--colorSecundario)
+}
+
+/* {} Campos de la cabecera de la tabla */
+.dataTable-table:not(.table-borderless) thead th,
+.table:not(.table-borderless) thead th {
+  background-color: var(--colorPrimario);
+  color: #fff
+}
+
+.dataTable-table:not(.table-borderless) tfoot td,
+.table:not(.table-borderless) tfoot td {
+  background-color: var(--colorPrimario);
+  color: #fff
+}
+
+/* {} Campos de la cabecera de la tabla,
+ {} Campos del cuerpo de la tabla */
+.dataTable-table td,
+.dataTable-table thead th,
+.table td,
+.table thead th {
+  padding: 0
+}
+
+/* ! Primer campo de la cabecera de la tabla */
+.dataTable-table:not(.table-borderless) thead th:first-child,
+.table:not(.table-borderless) thead th:first-child {
+    border-top-left-radius: 5px
+}
+
+/* ! Último campo de la cabecera de la tabla */
+.dataTable-table:not(.table-borderless) thead th:last-child,
+.table:not(.table-borderless) thead th:last-child {
+    border-top-right-radius: 5px
+}
+
+/* ! Primer campo del píe de la tabla */
+.dataTable-table:not(.table-borderless) tfoot tr:first-child,
+.table:not(.table-borderless) tfoot tr:first-child {
+    border-bottom-right-radius: 5px
+}
+
+/* ! Último campo del píe de la tabla */
+.dataTable-table:not(.table-borderless) tfoot tr:last-child,
+.table:not(.table-borderless) tfoot tr:last-child {
+    border-bottom-right-radius: 5px
+}
+
+/* ! Campos de la cabecera de la tabla,
+   ! Campos del cuerpo de la tabla */
+.dataTable-table td,
+.dataTable-table thead th,
+.table td,
+.table thead th {
+    padding: 2.5px
+}

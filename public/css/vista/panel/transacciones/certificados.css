@@ -1,0 +1,35 @@
+/* .table.dataTable>thead>tr> :nth-child(2),
+.table.dataTable>thead>tr> :nth-child(4) {
+    text-align: left
+}
+
+.table.dataTable>thead>tr> :nth-child(6),
+.table.dataTable>thead>tr> :nth-child(7),
+.table.dataTable>thead>tr> :nth-child(8) {
+    text-align: right
+}
+
+.table.dataTable>tfoot>tr> :nth-child(6),
+.table.dataTable>tfoot>tr> :nth-child(7),
+.table.dataTable>tfoot>tr> :nth-child(8) {
+    text-align: right
+}
+
+@media (max-width: 992px) {
+    .table.dataTable>thead>tr> :nth-child(2) {
+        text-align: left
+    }
+    .table.dataTable>tfoot>tr> :nth-child(2) {
+        text-align: left
+    }
+    .table.dataTable>thead>tr> :nth-child(4),
+    .table.dataTable>thead>tr> :nth-child(5),
+    .table.dataTable>thead>tr> :nth-child(6) {
+        text-align: right !important
+    }
+    .table.dataTable>tfoot>tr> :nth-child(4),
+    .table.dataTable>tfoot>tr> :nth-child(5),
+    .table.dataTable>tfoot>tr> :nth-child(6) {
+        text-align: right
+    }
+} */

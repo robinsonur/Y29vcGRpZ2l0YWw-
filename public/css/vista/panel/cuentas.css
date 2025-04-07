@@ -1,0 +1,43 @@
+/* #tablaRegistros.dataTable>thead>tr> :nth-child(2) {
+    text-align: right
+}
+
+#tablaRegistros.dataTable>tfoot>tr> :nth-child(2) {
+    text-align: right
+}
+
+@media (min-width: 992px) {
+    #tablaRegistros.dataTable>thead>tr> :nth-child(2) {
+        text-align: left !important
+    }
+    #tablaRegistros.dataTable>thead>tr> :nth-child(5),
+    #tablaRegistros.dataTable>thead>tr> :nth-child(6) {
+        text-align: right
+    }
+    #tablaRegistros.dataTable>tfoot>tr> :nth-child(5),
+    #tablaRegistros.dataTable>tfoot>tr> :nth-child(6) {
+        text-align: right
+    }
+    #tablaRegistrosEstado.dataTable>thead>tr> :nth-child(2) {
+        text-align: left !important
+    }
+    #tablaRegistrosEstado.dataTable>thead>tr> :nth-child(4),
+    #tablaRegistrosEstado.dataTable>thead>tr> :nth-child(5),
+    #tablaRegistrosEstado.dataTable>thead>tr> :nth-child(6) {
+        text-align: right !important
+    }
+    #tablaRegistrosEstado.dataTable>tfoot>tr> :nth-child(4),
+    #tablaRegistrosEstado.dataTable>tfoot>tr> :nth-child(5),
+    #tablaRegistrosEstado.dataTable>tfoot>tr> :nth-child(6) {
+        text-align: right !important
+    }
+}
+
+@media (max-width: 991px) {
+    #tablaRegistros.dataTable>thead>tr> :nth-child(1) {
+        text-align: left !important
+    }
+    #tablaRegistros.dataTable>tfoot>tr> :nth-child(1) {
+        text-align: left !important
+    }
+} */

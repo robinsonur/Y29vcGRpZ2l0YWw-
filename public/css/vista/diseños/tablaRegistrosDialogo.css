@@ -1,0 +1,92 @@
+/* {} Alineaciones */
+
+.alinearIzquierda {
+    text-align: left !important
+}
+
+.alinearCentro {
+    text-align: center !important
+}
+
+.alinearDerecha {
+    text-align: right !important
+}
+
+
+/* {} */
+
+.swal2-html-container {
+    margin: 0 !important
+}
+
+#tablaRegistrosDialogo_wrapper>.row>div {
+    padding-right: 60px;
+    text-align: right !important
+}
+
+.accionVer {
+    border-radius: 0.3rem;
+    border: none;
+    background-color: var(--bs-primary);
+    padding: 0;
+}
+
+.accionVer:hover,
+.accionVer:active,
+.accionVer:focus {
+    background-color: var(--bs-primary-dark)
+}
+
+#tablaRegistrosDialogo>thead {
+    border-radius: 0.3rem 0.3rem 0 0;
+    background-color: var(--bs-primary);
+    text-align: center;
+}
+
+#tablaRegistrosDialogo>tbody>.odd[role="row"]>td,
+#tablaRegistrosDialogo>tbody>.even[role="row"]>td {
+    text-align: center;
+}
+
+#tablaRegistrosDialogo>tfoot>tr>th[rowspan="1"] {
+    color: #fff
+}
+
+#tablaRegistrosDialogo>tfoot {
+    border-radius: 0 0 0.3rem 0.3rem;
+    background-color: var(--bs-primary);
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .swal2-html-container {
+        overflow: hidden !important
+    }
+}
+
+@media (min-width: 1024px) {
+    .accionVer {
+        width: 2.6785714285714284vw;
+        min-height: 1.369047619047619vw;
+        font-size: 0.8333333333333334vw;
+        letter-spacing: -0.029296875vw;
+    }
+    #swal2-html-container {
+        padding: 0.48828125vw;
+        font-size: 1.109375vw;
+    }
+    #tablaRegistrosDialogo {
+        font-size: 0.87890625vw;
+        letter-spacing: -0.029296875vw;
+    }
+    #tablaRegistrosDialogo>tbody>.odd[role="row"]>td,
+    #tablaRegistrosDialogo>tbody>.even[role="row"]>td {
+        padding: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .accionVer {
+        padding: 0.1rem
+    }
+}

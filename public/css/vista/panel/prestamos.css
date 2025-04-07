@@ -1,0 +1,60 @@
+/* @media (min-width: 1024px) {
+    .table.dataTable>thead>tr> :nth-child(2) {
+        text-align: left
+    }
+    .table.dataTable>thead>tr> :nth-child(6),
+    .table.dataTable>thead>tr> :nth-child(8),
+    .table.dataTable>thead>tr> :nth-child(9),
+    .table.dataTable>thead>tr> :nth-child(10),
+    .table.dataTable>thead>tr> :nth-child(11) {
+        text-align: right !important
+    }
+    .table.dataTable>tfoot>tr> :nth-child(6),
+    .table.dataTable>tfoot>tr> :nth-child(8),
+    .table.dataTable>tfoot>tr> :nth-child(9),
+    .table.dataTable>tfoot>tr> :nth-child(10),
+    .table.dataTable>tfoot>tr> :nth-child(11) {
+        text-align: right !important
+    }
+    #tablaRegistrosDialogo>thead>tr> :nth-child(2) {
+        text-align: center
+    }
+    #tablaRegistrosDialogo>thead>tr> :nth-child(3),
+    #tablaRegistrosDialogo>thead>tr> :nth-child(4),
+    #tablaRegistrosDialogo>thead>tr> :nth-child(5),
+    #tablaRegistrosDialogo>thead>tr> :nth-child(6),
+    #tablaRegistrosDialogo>thead>tr> :nth-child(7),
+    #tablaRegistrosDialogo>thead>tr> :nth-child(8),
+    #tablaRegistrosDialogo>thead>tr> :nth-child(9) {
+        text-align: right !important
+    }
+    #tablaRegistrosDialogo>tfoot>tr> :nth-child(3),
+    #tablaRegistrosDialogo>tfoot>tr> :nth-child(4),
+    #tablaRegistrosDialogo>tfoot>tr> :nth-child(5),
+    #tablaRegistrosDialogo>tfoot>tr> :nth-child(6),
+    #tablaRegistrosDialogo>tfoot>tr> :nth-child(7),
+    #tablaRegistrosDialogo>tfoot>tr> :nth-child(8),
+    #tablaRegistrosDialogo>tfoot>tr> :nth-child(9) {
+        text-align: right !important
+    }
+}
+
+@media (max-width: 1023px) {
+    .table.dataTable>thead>tr> :nth-child(3),
+    .table.dataTable>thead>tr> :nth-child(4),
+    .table.dataTable>thead>tr> :nth-child(5) {
+        text-align: right !important
+    }
+    .table.dataTable>tfoot>tr> :nth-child(3),
+    .table.dataTable>tfoot>tr> :nth-child(4),
+    .table.dataTable>tfoot>tr> :nth-child(5) {
+        text-align: right
+    }
+} */
+
+@media (max-width: 345px) {
+    .fecha,
+    .monto {
+        letter-spacing: -0.1759375vw
+    }
+}

@@ -1,0 +1,90 @@
+div#cabeceraImpresionCalculadoraPrestamos {
+    margin: 15px;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 0 0.25rem rgb(127 179 68 / 25%);
+    display: flex
+}
+
+div#cabeceraImpresionCalculadoraPrestamos>div.columnaDatos {
+    width: 30%;
+    padding: 8px
+}
+
+p.tituloDato,
+p.tituloDato~p {
+    margin: 0
+}
+
+#tablaRegistros {
+    width: 100% !important
+}
+
+.table.dataTable>thead>tr> :nth-child(3),
+.table.dataTable>thead>tr> :nth-child(4),
+.table.dataTable>thead>tr> :nth-child(5),
+.table.dataTable>thead>tr> :nth-child(6),
+.table.dataTable>thead>tr> :nth-child(7),
+.table.dataTable>thead>tr> :nth-child(8) {
+    text-align: right
+}
+
+.table.dataTable>tfoot>tr> :nth-child(3),
+.table.dataTable>tfoot>tr> :nth-child(4),
+.table.dataTable>tfoot>tr> :nth-child(5),
+.table.dataTable>tfoot>tr> :nth-child(6),
+.table.dataTable>tfoot>tr> :nth-child(7),
+.table.dataTable>tfoot>tr> :nth-child(8) {
+    text-align: right
+}
+
+@media (min-width: 1024px) {
+    .dataTables_empty {
+        height: 99.4614vw
+    }
+}
+
+@media (max-width: 991px) {
+    .dataTables_empty {
+        height: 99.4614vw
+    }
+    #collapseOne>.card-body {
+        text-align: left
+    }
+    .col-12.col-lg-12 {
+        margin: 3px 0;
+    }
+    .col-7.col-lg-2>label,
+    .col-12.col-lg-4>button {
+        width: 100% !important
+    }
+    #tablaRegistros_wrapper> :first-child {
+        display: none
+    }
+}
+
+@media (min-width: 992px) {
+    .col-12.col-lg-12 {
+        margin: 3px 0;
+    }
+    .row>.col-12.col-lg-12>.row {
+        justify-content: center
+    }
+    .col-5.col-lg-2 {
+        text-align: left
+    }
+    .col-7.col-lg-2>label,
+    .col-7.col-lg-2>label>input,
+    .col-12.col-lg-4>button {
+        width: 100% !important
+    }
+    .col-12.col-lg-4>.row {
+        justify-content: center
+    }
+}
+
+@media (max-width: 765px) {
+    table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before,
+    table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:before {
+        left: -3px !important
+    }
+}

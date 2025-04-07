@@ -1,0 +1,62 @@
+html, body {
+  height: 100%
+}
+
+body {
+  background: url(../../imagenes/4853433.png?45649b8…), linear-gradient(90deg, var(--bs-primary), var(--bs-primary-dark));
+  grid-template-areas: 'header' 'main' 'footer';
+  grid-template-rows: auto 1fr auto
+}
+
+body > header {
+  grid-area: header
+}
+
+body > main {
+  grid-area: main;
+  grid-template-rows: auto 1fr
+}
+
+body > footer {
+  grid-area: footer
+}
+
+.row {
+  --bs-gutter-x: 10px;
+  --bs-gutter-y: 10px
+}
+
+.row > * {
+  align-self: end
+}
+
+.form-group {
+  margin-bottom: 0
+}
+
+/* {} Pantalla de impresión */
+@media print {}
+
+/* {} Tamaño de pantalla ampliada */
+@media (-webkit-min-device-pixel-ratio: 2) {}
+
+/* {} Pantalla para 576px de ancho */
+@media (min-width: 576px) {}
+
+/* {} Pantalla para 768px de ancho */
+@media (min-width: 768px) {}
+
+/* {} Pantalla para 992px de ancho */
+@media (min-width: 992px) {
+
+  body > main {
+    width: 992px !important
+  }
+
+}
+
+/* {} Pantalla para 1200px de ancho */
+@media (min-width: 1200px) {}
+
+/* {} Pantalla para 1400px de ancho */
+@media (min-width: 1400px) {}

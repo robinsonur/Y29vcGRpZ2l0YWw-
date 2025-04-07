@@ -1,0 +1,46 @@
+/* .table.dataTable>thead>tr> :nth-child(6),
+.table.dataTable>thead>tr> :nth-child(7),
+.table.dataTable>thead>tr> :nth-child(8) {
+    text-align: right
+}
+
+.table.dataTable>tfoot>tr> :nth-child(6),
+.table.dataTable>tfoot>tr> :nth-child(7),
+.table.dataTable>tfoot>tr> :nth-child(8) {
+    text-align: right
+}
+
+#tablaRegistrosDialogo>thead>tr> :nth-child(2) {
+    text-align: left
+}
+
+#tablaRegistrosDialogo>thead>tr> :nth-child(4),
+#tablaRegistrosDialogo>thead>tr> :nth-child(5),
+#tablaRegistrosDialogo>thead>tr> :nth-child(6),
+#tablaRegistrosDialogo>thead>tr> :nth-child(7) {
+    text-align: right !important
+}
+
+#tablaRegistrosDialogo>tfoot>tr> :nth-child(4),
+#tablaRegistrosDialogo>tfoot>tr> :nth-child(5),
+#tablaRegistrosDialogo>tfoot>tr> :nth-child(6),
+#tablaRegistrosDialogo>tfoot>tr> :nth-child(7) {
+    text-align: right !important
+}
+
+@media (max-width: 1023px) {
+    .table.dataTable>thead>tr> :nth-child(1),
+    .table.dataTable>thead>tr> :nth-child(2) {
+        text-align: center !important
+    }
+    .table.dataTable>thead>tr> :nth-child(3),
+    .table.dataTable>thead>tr> :nth-child(4),
+    .table.dataTable>thead>tr> :nth-child(5) {
+        text-align: right !important
+    }
+    .table.dataTable>tfoot>tr> :nth-child(3),
+    .table.dataTable>tfoot>tr> :nth-child(4),
+    .table.dataTable>tfoot>tr> :nth-child(5) {
+        text-align: right !important
+    }
+} */

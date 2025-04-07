@@ -1,0 +1,36 @@
+#contrasena.campoIncompleto,
+#confirmarContrasena.campoIncompleto {
+    border-color: #f3616d;
+    color: #f3616d;
+}
+
+#contrasena.campoIncompleto~div>i::before,
+#confirmarContrasena.campoIncompleto~div>i::before {
+    color: #f3616d
+}
+
+#contrasena.campoIncompleto::placeholder,
+#confirmarContrasena.campoIncompleto::placeholder {
+    color: #f3616d
+}
+
+#contrasena.campoIncompleto:focus,
+#confirmarContrasena.campoIncompleto:focus {
+    box-shadow: 0 0 0 0.2vw rgb(243 97 109 / 25%) !important
+}
+
+.campoIncompleto,
+.campoIncompleto~div>i::before,
+#etiquetaValidacioncontrasena,
+#etiquetaValidacionconfirmarContrasena {
+    animation: agitacionHorizontal .5s
+}
+
+#botonActualizar:hover,
+#botonActualizar:active,
+#botonActualizar:focus,
+#botonActualizarContrasena:hover,
+#botonActualizarContrasena:active,
+#botonActualizarContrasena:focus {
+    background-color: var(--bs-primary-dark)
+}

@@ -1,0 +1,119 @@
+/* Color de selección para el texto */
+
+:root {
+	--bs-darkening-factor: 1.3;
+
+    --bs-primary-r: 117;
+	--bs-primary-g: 186;
+	--bs-primary-b: 27;
+	--bs-primary-rgb: var(--bs-primary-r), var(--bs-primary-g), var(--bs-primary-b);
+	--bs-primary: rgb(var(--bs-primary-rgb));
+
+	--bs-primary-subtle: rgb(var(--bs-primary-rgb), 0.25);
+
+	--bs-primary-dark-r: calc(var(--bs-primary-r) / var(--bs-darkening-factor));
+	--bs-primary-dark-g: calc(var(--bs-primary-g) / var(--bs-darkening-factor));
+	--bs-primary-dark-b: calc(var(--bs-primary-b) / var(--bs-darkening-factor));
+	--bs-primary-dark-rgb: var(--bs-primary-dark-r), var(--bs-primary-dark-g), var(--bs-primary-dark-b);
+	--bs-primary-dark: rgb(var(--bs-primary-dark-rgb));
+
+	--bs-primary-dark-subtle: rgb(var(--bs-primary-dark-rgb), 0.25)
+
+}
+
+::-moz-selection {
+    background-color: var(--bs-primary-dark);
+    color: #fff;
+}
+
+::selection {
+    background-color: var(--bs-primary-dark);
+    color: #fff;
+}
+
+::-webkit-selection {
+    background-color: var(--bs-primary-dark);
+    color: #fff;
+}
+
+.campoIncompleto {
+    border-color: #f3616d;
+    color: #f3616d;
+}
+
+.campoIncompleto~div>i::before,
+.campoIncompleto::placeholder,
+.campoIncompleto:focus {
+    color: #f3616d !important
+}
+
+.campoIncompleto:focus {
+    box-shadow: 0 0 0 0.2vw rgb(243 97 109 / 25%) !important
+}
+
+.campoIncompleto,
+.campoIncompleto~div>i::before {
+    animation: agitacionHorizontal .5s
+}
+
+.form-group.with-title label.campoIncompleto {
+    background-color: #f3616d;
+    color: #fff
+}
+
+
+/* Animaciones */
+
+@keyframes reaparicionOpacada {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes reaparicionEscalada {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes reaparicionHorizontal {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(none);
+    }
+}
+
+@keyframes agitacionHorizontal {
+    0% {
+        transform: translateX(45px);
+    }
+    25% {
+        transform: translateX(-25px);
+    }
+    50% {
+        transform: translateX(15px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes cambioAncho {
+    0% {
+        width: 100%;
+    }
+    100% {
+        width: none;
+    }
+}
